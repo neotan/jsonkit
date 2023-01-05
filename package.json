@@ -1,0 +1,44 @@
+{
+  "name": "yml2js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "yml2js": "index.js"
+  },
+  "scripts": {
+    "dev": "nodemon --watch index.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neotan/yml2js.git"
+  },
+  "keywords": [
+    "json",
+    "parser",
+    "convert",
+    "case",
+    "camelCase",
+    "snakeCase",
+    "uppercase",
+    "lowercase"
+  ],
+  "author": "neotan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neotan/jsonkit/issues"
+  },
+  "homepage": "https://github.com/neotan/jsonkit#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "snake-case": "^3.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.20"
+  }
+}
